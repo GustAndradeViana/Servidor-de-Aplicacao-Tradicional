@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3').verbose();
+const sqlite = require('sqlite');
 const path = require('path');
 
 class Database {
@@ -8,7 +8,7 @@ class Database {
     }
 
     async init() {
-        this.db = new sqlite3.Database(this.dbPath);
+        this.db = new sqlite.Database(this.dbPath);
         await this.createTables();
         console.log('✅ Database inicializado');
     }

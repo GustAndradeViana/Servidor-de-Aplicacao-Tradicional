@@ -1,6 +1,6 @@
 {
   "name": "lab01-servidor-tradicional",
-    "version": "1.0.0",
+  "version": "1.0.0",
   "description": "Sistema de tarefas com arquitetura cliente-servidor tradicional",
   "main": "server.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/GustAndradeViana/Servidor-de-Aplicacao-Tradicional.git"
   },
-  "keywords": ["sistemas-distribuidos", "cliente-servidor", "rest-api"],
+  "keywords": [
+    "sistemas-distribuidos",
+    "cliente-servidor",
+    "rest-api"
+  ],
   "author": "Aluno PUC Minas",
   "license": "MIT",
   "type": "commonjs",
